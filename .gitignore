@@ -1,0 +1,7 @@
+# Files created when you run tests. Safe to delete.
+results/
+log.html
+report.html
+output.xml
+*.pyc
+__pycache__/
