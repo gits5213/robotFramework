@@ -57,7 +57,7 @@ In everyday words:
 ## Run it
 
 ```
-robot examples/keywords/coffee_shop.robot
+python3 -m robot examples/keywords/coffee_shop.robot
 ```
 
 You want **1 test, 1 passed, 0 failed**.

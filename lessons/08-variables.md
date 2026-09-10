@@ -40,7 +40,7 @@ When Robot Framework runs the file, it replaces `${CUSTOMER}` with `Sam`, and so
 ## Run it
 
 ```
-robot examples/variables/shopping.robot
+python3 -m robot examples/variables/shopping.robot
 ```
 
 You want it to pass. Then open `log.html` and confirm the messages show **Sam** and **notebook**, not the `${...}` names.

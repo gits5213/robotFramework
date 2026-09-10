@@ -2,7 +2,7 @@
 
 **Time:** about 15 minutes  
 **You will:** see one test pass and one test fail on purpose  
-**You need:** to be able to run `robot` from Lesson 3
+**You need:** to be able to run `python3 -m robot` from Lesson 3
 
 ---
 
@@ -42,7 +42,7 @@ Should Be Equal    apple    orange
 From the main folder:
 
 ```
-robot examples/pass-and-fail/checks.robot
+python3 -m robot examples/pass-and-fail/checks.robot
 ```
 
 ---

@@ -6,7 +6,7 @@ Use this page when a word feels technical. Come back as often as you need.
 Extra information you give a step. In `Log    Hello`, the word `Hello` is the argument.
 
 **Command**  
-A short instruction you type in the terminal, then press Enter. Example: `robot --version`.
+A short instruction you type in the terminal, then press Enter. Example: `python3 -m robot --version`.
 
 **Fail**  
 The test found a problem. The result is red. This is useful. It means “look here.”

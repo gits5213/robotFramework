@@ -5,37 +5,31 @@ Keep this page nearby after Lesson 3.
 ## Check that it is installed
 
 ```
-robot --version
-```
-
-If that fails, use:
-
-```
 python3 -m robot --version
 ```
 
 You should see something like `Robot Framework 7.x`.
 
-If `robot` is not recognized, use `python3 -m robot` in every command below.
+On this Mac, always use `python3 -m robot`. Do not type `robot` by itself. That command is not on the PATH.
 
 ## Run one file
 
 In the terminal, go to the folder, then run:
 
 ```
-robot hello.robot
+python3 -m robot hello.robot
 ```
 
 Or from the main folder of this guide:
 
 ```
-robot examples/first-test/hello.robot
+python3 -m robot examples/first-test/hello.robot
 ```
 
 ## Run every test in a folder
 
 ```
-robot examples/first-test
+python3 -m robot examples/first-test
 ```
 
 ## After a run, open these files
@@ -95,5 +89,5 @@ You do not need every section in every file.
 
 1. Read the red error. It often says the file was not found, or spaces were wrong.
 2. Check you are in the right folder (`pwd` on Mac, `cd` to move).
-3. Check `robot --version` still works.
+3. Check `python3 -m robot --version` still works.
 4. Look at [glossary.md](glossary.md) for the word that confused you.

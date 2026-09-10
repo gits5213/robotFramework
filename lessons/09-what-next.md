@@ -6,7 +6,7 @@
 You now know the core loop:
 
 1. Write steps in a `.robot` file
-2. Run `robot ...`
+2. Run `python3 -m robot ...`
 3. Read PASS / FAIL
 4. Open `report.html`
 

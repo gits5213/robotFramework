@@ -79,35 +79,23 @@ If it asks “Do you want to continue?” type `y` and press Enter.
 
 ## Step 4 — Prove it worked
 
-Type:
-
-```
-robot --version
-```
-
-**Good result:** a line similar to:
-
-```
-Robot Framework 7.3.2 (Python 3.12.1 on darwin)
-```
-
-The numbers do not need to match. Seeing `Robot Framework` is enough.
-
-### If `robot` is not recognized
-
-That is common. The tool is installed, but the short `robot` command is not on the PATH.
-
-Close the terminal, open a new one, and try `robot --version` again.
-
-If it still fails, use this form instead. It is just as correct:
+On this Mac, use:
 
 ```
 python3 -m robot --version
 ```
 
-If that works, use `python3 -m robot` anywhere this guide says `robot`.
+**Good result:** a line similar to:
 
-Example: instead of `robot examples/first-test/hello.robot`, run:
+```
+Robot Framework 7.4.2 (Python 3.11.0 on darwin)
+```
+
+The numbers do not need to match. Seeing `Robot Framework` is enough.
+
+Do **not** type `robot` by itself. You will get `command not found`. That does not mean the install failed. Use `python3 -m robot` every time.
+
+To run a test later, the pattern is:
 
 ```
 python3 -m robot examples/first-test/hello.robot
@@ -122,7 +110,7 @@ This folder includes a small file named `requirements.txt`. After you have Pytho
 1. In the terminal, move into this folder. Example on a Mac:
 
    ```
-   cd /Volumes/LaCie/toGithub/robotFramework
+   cd ~/Desktop/toGithub/robotFramework
    ```
 
 2. Then:
@@ -147,7 +135,7 @@ You do not need another editor for this course.
 
 You are ready for Lesson 3 when:
 
-- `python3 --version` or `python --version` prints a Python 3 version
-- `robot --version` prints Robot Framework
+- `python3 --version` prints a Python 3 version
+- `python3 -m robot --version` prints Robot Framework
 
 **Next:** [Lesson 3 — Your first test](03-first-test.md)

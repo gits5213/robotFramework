@@ -23,7 +23,7 @@ These files are **replaced** each time you run tests. That is normal. The newest
 ## Step 1 — Run a test if you have not just done so
 
 ```
-robot examples/pass-and-fail/checks.robot
+python3 -m robot examples/pass-and-fail/checks.robot
 ```
 
 ---
@@ -72,7 +72,7 @@ You will often see the same `apple != orange` message there, next to `Should Be 
 If the report files in the main folder feel messy, you can send them to their own folder:
 
 ```
-robot --outputdir results examples/pass-and-fail/checks.robot
+python3 -m robot --outputdir results examples/pass-and-fail/checks.robot
 ```
 
 `--outputdir results` means “put report.html, log.html, and output.xml inside a folder named results.”

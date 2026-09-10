@@ -2,7 +2,7 @@
 
 **Time:** about 15 minutes  
 **You will:** run a real test and see it pass  
-**You need:** Lesson 2 finished (`robot --version` works)
+**You need:** Lesson 2 finished (`python3 -m robot --version` works)
 
 ---
 
@@ -49,7 +49,7 @@ In the terminal, go to the main folder of this guide.
 **Mac example:**
 
 ```
-cd /Volumes/LaCie/toGithub/robotFramework
+cd ~/Desktop/toGithub/robotFramework
 ```
 
 **Check you are in the right place.** Type:
@@ -73,7 +73,7 @@ You should see folders named `examples` and `lessons`.
 Type this and press Enter:
 
 ```
-robot examples/first-test/hello.robot
+python3 -m robot examples/first-test/hello.robot
 ```
 
 Wait a few seconds.
@@ -109,7 +109,7 @@ You will also see file names like `report.html` and `log.html`. You will open th
 
 | What you see | What to try |
 | --- | --- |
-| `robot: command not found` | Go back to [Lesson 2](02-install.md). Or use `python3 -m robot` instead of `robot`. |
+| `robot: command not found` | Do not use `robot` by itself on this Mac. Use `python3 -m robot` as shown above. |
 | `File or directory does not exist` | You are in the wrong folder. Use `cd` to enter the `robotFramework` folder, then try again. |
 | Error about spaces or `No keyword` | Open the file and make sure there are **two or more spaces** after `Log`. |
 
@@ -119,7 +119,7 @@ You will also see file names like `report.html` and `log.html`. You will open th
 
 1. In `hello.robot`, change the message after `Log` to your name.
 2. Save the file.
-3. Run the same `robot` command again.
+3. Run the same `python3 -m robot` command again.
 
 The test should still pass. You only changed the text it writes down.
 
