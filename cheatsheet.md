@@ -75,6 +75,37 @@ My own step
 
 You do not need every section in every file.
 
+## Website keywords (Lessons 10–11)
+
+| Keyword | What it does |
+| --- | --- |
+| `Open Browser    ${URL}    chrome` | Opens Chrome |
+| `Input Text    id=the-box    hello` | Types into a field |
+| `Click Button    Register` | Clicks a button |
+| `Page Should Contain    Registration Successful` | Checks that text is on the page |
+| `Close Browser` | Closes Chrome |
+
+Live tests:
+
+```
+python3 -m robot --outputdir results examples/registration-form
+```
+
+## API keywords (Lessons 12–13)
+
+| Keyword | What it does |
+| --- | --- |
+| `GET    ${URL}    expected_status=200` | Asks for information |
+| `POST    ${URL}    json=${payload}    expected_status=201` | Sends new information |
+| `Status Should Be    200    ${response}` | Checks the reply number |
+| `${body}=    Set Variable    ${response.json()}` | Reads the reply as labeled facts |
+
+Live API tests (no Chrome):
+
+```
+python3 -m robot --outputdir results examples/api
+```
+
 ## Common beginner keywords
 
 | Keyword | What it does |

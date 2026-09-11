@@ -15,6 +15,8 @@ You need two things:
 
 If Python is already installed, you only do the second part.
 
+Chrome and SeleniumLibrary come later, in [Lesson 10](10-browser-testing.md), when you test a real web page.
+
 ---
 
 ## Step 1 — Open a terminal

@@ -69,7 +69,7 @@ If you forget these, open [glossary.md](../glossary.md).
 
 To keep this beginner-friendly, the first lessons **do not** open a web browser. You will start with tiny checks on your computer, like “is this word equal to that word?”
 
-That is on purpose. First you learn the shape of a test. Browser tests come later, in [Lesson 9](09-what-next.md).
+That is on purpose. First you learn the shape of a test. Real website tests come later, in [Lesson 10](10-browser-testing.md) and [Lesson 11](11-registration-form.md). API tests (no browser) come in [Lesson 12](12-what-is-an-api.md) and [Lesson 13](13-api-tests.md).
 
 ---
 

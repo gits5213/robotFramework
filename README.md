@@ -33,6 +33,10 @@ Set aside about **15–20 minutes per lesson**.
 | 7 | [Your own keywords](lessons/07-your-own-keywords.md) | Reuse steps, like a named recipe |
 | 8 | [Variables](lessons/08-variables.md) | Put names and values in one place |
 | 9 | [What to learn next](lessons/09-what-next.md) | Gentle next steps |
+| 10 | [Test a real web page](lessons/10-browser-testing.md) | Install Chrome testing and run live tests |
+| 11 | [The live registration form](lessons/11-registration-form.md) | Read tests that fill the GITS registration form |
+| 12 | [What is an API?](lessons/12-what-is-an-api.md) | Explain API tests in everyday words |
+| 13 | [Run the API tests](lessons/13-api-tests.md) | Send GET and POST and read the reply |
 
 ---
 
@@ -44,6 +48,8 @@ These are ready-made examples. You will use them in the lessons.
 - [examples/pass-and-fail/checks.robot](examples/pass-and-fail/checks.robot)
 - [examples/keywords/coffee_shop.robot](examples/keywords/coffee_shop.robot)
 - [examples/variables/shopping.robot](examples/variables/shopping.robot)
+- [examples/registration-form/registration_form.robot](examples/registration-form/registration_form.robot) — live tests for the GITS registration form
+- [examples/api/api_tests.robot](examples/api/api_tests.robot) — live API tests (httpbin + jsonplaceholder)
 
 ---
 

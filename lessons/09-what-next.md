@@ -27,30 +27,43 @@ If you can do those, you understand Robot Framework’s shape.
 
 ---
 
-## When you are ready for a website
+## The live website in this folder
 
-Real teams often use Robot Framework to click through a website.
+After Lesson 8, continue with:
 
-That needs **one extra library**, such as:
+- [Lesson 10 — Test a real web page](10-browser-testing.md)
+- [Lesson 11 — The live registration form](11-registration-form.md)
 
-- **Browser** (newer, uses Playwright)
-- **SeleniumLibrary** (very common, uses Selenium)
+Those lessons automate this practice page:
 
-Those tools install a browser driver and are a bit more setup. Skip them until the lessons in this folder feel easy.
+[https://gitsuniversity.org/practice/registration-form/](https://gitsuniversity.org/practice/registration-form/)
 
-A web test, in spirit, still looks like English:
+Run them with:
 
 ```
-Open the shop website
-Type    username    sam
-Type    password    secret
-Click    Sign in
-The page should contain    Welcome
+python3 -m robot --outputdir results examples/registration-form
 ```
 
-Same idea as Lesson 1. Different keywords.
+---
 
-When you get there, use the official docs (links below) rather than guessing install steps.
+## API tests in this folder
+
+After the website lessons, or instead of Chrome if you want a quieter path:
+
+- [Lesson 12 — What is an API?](12-what-is-an-api.md)
+- [Lesson 13 — Run the API tests](13-api-tests.md)
+
+Those lessons call the same kind of endpoints listed in the GITS API Practice Center:
+
+[https://gitsuniversity.org/practice/api-examples/](https://gitsuniversity.org/practice/api-examples/)
+
+Run them with:
+
+```
+python3 -m robot --outputdir results examples/api
+```
+
+No browser window opens.
 
 ---
 
@@ -77,6 +90,6 @@ These are the real manuals. They are more technical than this folder. Use them a
 
 ## You are done with the beginner path
 
-If you have run the four example files and opened a report, you have finished this guide.
+If you have run the example files, opened a report, and (when ready) run the registration form tests and the API tests, you have finished this guide.
 
 Come back to Lesson 4 whenever a file looks noisy. Spacing and headings cause most early confusion. That is normal.
